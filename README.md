@@ -1,10 +1,10 @@
-# 💊 AI-Powered Clinical Pharmacist Assistant (AI-CPA)
+# AI-Powered Clinical Pharmacist Assistant (AI-CPA)
 
 A complete machine learning system for predicting Adverse Drug Reaction (ADR) risk in hospitalized patients, built with **XGBoost**, **SHAP explainability**, and **Streamlit**.
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 The AI-CPA system helps clinical pharmacists identify patients at high risk for adverse drug reactions by:
 
@@ -17,7 +17,7 @@ The AI-CPA system helps clinical pharmacists identify patients at high risk for 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 medbot/
@@ -50,7 +50,7 @@ medbot/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1️⃣ Installation
 
@@ -89,7 +89,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 ### Data Pipeline
 
@@ -137,7 +137,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 🖥️ Using the Streamlit App
+## Using the Streamlit App
 
 ### Page 1: Patient Entry
 
@@ -187,7 +187,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 **Test Set Metrics:**
 
@@ -204,7 +204,7 @@ The app will open in your browser at `http://localhost:8501`
 
 ---
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Run Individual Modules
 
@@ -247,7 +247,7 @@ model = XGBClassifier(
 
 ---
 
-## 📝 Data Requirements
+## Data Requirements
 
 The system expects preprocessed CSV files in `data/output/`:
 
@@ -268,7 +268,7 @@ The system expects preprocessed CSV files in `data/output/`:
 
 ---
 
-## 🛡️ Clinical Use Disclaimer
+## Clinical Use Disclaimer
 
 ⚠️ **Important:** This system is designed for **clinical decision support only** and should not replace professional medical judgment. Always:
 
@@ -279,7 +279,7 @@ The system expects preprocessed CSV files in `data/output/`:
 
 ---
 
-## 🔬 Technical Stack
+## Technical Stack
 
 - **ML Framework:** XGBoost, scikit-learn
 - **Explainability:** SHAP
@@ -290,7 +290,7 @@ The system expects preprocessed CSV files in `data/output/`:
 
 ---
 
-## 📚 References
+## References
 
 - **MIMIC-IV:** Johnson et al., "MIMIC-IV, a freely accessible electronic health record dataset", Scientific Data, 2023
 - **FAERS:** FDA Adverse Event Reporting System
@@ -299,7 +299,7 @@ The system expects preprocessed CSV files in `data/output/`:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 To improve the AI-CPA system:
 
@@ -311,7 +311,7 @@ To improve the AI-CPA system:
 
 ---
 
-## 📧 Support
+## Support
 
 For questions or issues:
 
@@ -322,7 +322,7 @@ For questions or issues:
 
 ---
 
-## 📄 License
+## License
 
 This project uses:
 
@@ -333,7 +333,7 @@ Ensure you have proper data use agreements before using clinical data.
 
 ---
 
-## ✅ Project Checklist
+## Project Checklist
 
 - [x] Data preprocessing pipeline
 - [x] XGBoost model training with SMOTE
@@ -349,3 +349,4 @@ Ensure you have proper data use agreements before using clinical data.
 ---
 
 **Built with ❤️ for clinical pharmacists and patient safety**
+
